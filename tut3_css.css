@@ -1,0 +1,22 @@
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    background-color: #EAF6F6;
+    color: rgb(211, 211, 211);
+    /* border-style: none; making color white-i.e.default itself and border style none it disappears, thus increase its height to have a view of white line */
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    /*its default*/
+    width: 5%;
+    /* border-width: thick; */
+    border-top-width: 8px;
+}
+
+
+h3,
+h1 {
+    color: #66BFBF;
+}

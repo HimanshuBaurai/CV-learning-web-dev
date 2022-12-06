@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu's Personal website</title>
+    <link rel="stylesheet" href="CSS\tut3_css.css">
+    <!-- attaching the external css-->
+</head>
+
+<!-- internal css is something written inside the style tag whereas inline css is written as an attribute inside the tags -->
+
+<!-- <style>
+    body {
+        background-color: #EAF6F6;
+    }
+
+    hr {
+        background-color: #EAF6F6;
+        color: rgb(211, 211, 211);
+        /* border-style: none; making color white-i.e.default itself and border style none it disappears, thus increase its height to have a view of white line */
+        border-style: none;
+        border-top-style: dotted;
+        height: 0px;
+        /*its default*/
+        width: 5%;
+        /* border-width: thick; */
+        border-top-width: 8px;
+    }
+</style> -->
+
+<!-- we realised that by writing internal css we have to write it for various web pages again and agin, thus we should use external css -->
+
+<body link="nocolor">
+    <!-- if we want to set layout without css of webpage in a way, we can use tables to align image to left and content to right next to it  -->
+    <!-- before
+    <img src="images\himanshu pic.jpg" width="150" height="150" alt="Himanshu Baurai's Pic">
+    <h1>Himanshu Baurai</h1>
+    <p>
+        <em>Founding member of the
+            <strong>MEME HEAVEN</strong>.
+        </em>
+    </p> -->
+    <!-- after -->
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="images\himanshu pic.jpg" width="150" height="150" alt="Himanshu Baurai's Pic">
+            </td>
+            <td>
+                <h1>Himanshu Baurai</h1>
+                <p>
+                    <em>Founding member of the
+                        <strong>MEME HEAVEN</strong>.
+                    </em>
+                <p>
+                    <a href="tut3_contact.html">Contact Me</a>
+                </p>
+                </p>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        Ready to face any challeneges and my hobbies include getting into the new techs , though the concentration power
+        is something where i lack the most but soon will be outta it as i am working hard on that
+    </p>
+
+    <hr>
+
+    <h3>Education</h3>
+    <p>
+    <ol type="1">
+        <li><a href="http://www.dce.ac.in/">Delhi Technological University</a> </li>
+        <li><a href="http://pioneerconventloknayakpuram.com/">Pioneer Convent Sr. Sec. School</a></li>
+        <li><a href="https://www.smpsnebsarai.in/">St. Marry's Public School</a></li>
+        <li><a
+                href="https://www.justdial.com/Delhi/Sai-Sanskriti-Near-Shiv-Mandir-Neb-Sarai/011PXX11-XX11-160428131518-S5T7_BZDET">Sanskriti
+                Play School</a></li>
+    </ol>
+    </p>
+
+    <hr>
+
+    <h3>Work Experiences</h3>
+    <!-- table demonstration -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010-13</td>
+                <td>Lead develepor at Tempo App</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Researcher at the Institute of Cognitive Neurosciences</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <hr>
+
+    <h3>Skills</h3>
+    <!-- challenge make a nested table -->
+    <!-- demostration of use of emoji and nesting of the tables -->
+    <!-- <table >
+        <tr>
+            <td>
+                <table border="1" cellspacing="10">
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="1" cellspacing="10">
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table> -->
+
+    <table>
+        <tr>
+            <td>
+                <table cellspacing="10">
+                    <tr>
+                        <td>Bootstrap framework</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>IOS development</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Tailwind CSS</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
+<!-- concepts of images lists ul and ol -->
